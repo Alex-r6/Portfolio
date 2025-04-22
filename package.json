@@ -1,8 +1,10 @@
 {
   "name": "portfolio",
+  "homepage": "https://alex-r6.github.io/Portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "file-saver": "^2.0.5",
     "framer-motion": "^12.4.10",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
@@ -12,7 +14,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

@@ -1,6 +1,6 @@
-import { getStyles } from "../../helper/helper"
+import { getStyles, linkIMG } from "../../helper/helper"
 import { shema } from "../../shema"
-// document.querySelector('#root').scrollTo({top : 500, behavior  :"smooth"})
+//document.querySelector('#root').scrollTo({top : 500, behavior  :"smooth"})
 
 export const Ground = () => {
 
@@ -13,7 +13,7 @@ export const Ground = () => {
         bottom: elem.bottom,
         width: elem.width,
         height: elem.height,
-        backgroundImage: `url(${elem.img})`,
+        backgroundImage: `url(${linkIMG + elem.img})`,
         backgroundRepeat: elem.isRepeatY ? 'repeat' : 'repeat-x',
         zIndex: elem.zIndex
       }}></div>)}
@@ -24,8 +24,11 @@ export const Ground = () => {
         height: elem.height,
         bottom: elem.bottom,
         left: elem.left,
-        backgroundImage: `url(${elem.img})`
+        backgroundImage: `url(${linkIMG + elem.img})`
       }}></div>)}
     </>
   )
 }
+
+
+

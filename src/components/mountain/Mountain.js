@@ -1,4 +1,5 @@
 import React from 'react'
+import { linkIMG } from '../../helper/helper'
 import { shema } from "../../shema"
 
 export const Mountain = () => {
@@ -9,7 +10,7 @@ export const Mountain = () => {
                                                   height: elem.height,
                                                   bottom: elem.bottom,
                                                   left: elem.left,
-                                                  backgroundImage: `url(${elem.img})`}}></div>)}
+                                                  backgroundImage: `url(${linkIMG + elem.img})`}}></div>)}
     </>
   )
 }

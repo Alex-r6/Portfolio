@@ -1,3 +1,4 @@
+import { linkIMG } from "../../helper/helper"
 import { shema } from "../../shema"
 
 
@@ -11,7 +12,7 @@ export const Sky = () => {
         height: elem.height,
         top: elem.top,
         left: elem.left,
-        backgroundImage: `url(${elem.img})`
+        backgroundImage: `url(${linkIMG + elem.img})`
       }}></div>)}
     </>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { linkIMG } from '../../helper/helper'
 import { shema } from '../../shema'
 
 export const See_ground = () => {
@@ -10,7 +11,7 @@ export const See_ground = () => {
         bottom: elem.bottom,
         width: elem.width,
         height: elem.height,
-        backgroundImage: `url(${elem.img})`,
+        backgroundImage: `url(${linkIMG + elem.img})`,
         backgroundRepeat: 'repeat-x',
         zIndex: elem.zIndex
       }}></div>)}
@@ -20,7 +21,7 @@ export const See_ground = () => {
         height: elem.height,
         bottom: elem.bottom,
         left: elem.left,
-        backgroundImage: `url(${elem.img})`
+        backgroundImage: `url(${linkIMG + elem.img})`
       }}></div>)}
 
       {shema.algae_g.map((elem, i) => <div key={i} style={{
@@ -29,7 +30,7 @@ export const See_ground = () => {
         height: elem.height,
         bottom: elem.bottom,
         left: elem.left,
-        backgroundImage: `url(${elem.img})`,
+        backgroundImage: `url(${linkIMG + elem.img})`,
         zIndex: elem.zIndex,
       }}>
         {elem.children && <div className={elem.children.className}>{elem.children.text}</div>}

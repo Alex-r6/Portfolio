@@ -1,4 +1,5 @@
 import React from 'react'
+import { linkIMG } from '../../../helper/helper'
 
 export const Table2 = () => {
     return (
@@ -22,19 +23,19 @@ export const Table2 = () => {
             <div className="lang_cont">
             <div className="crab_cont">
                     <div className="sea_ribbon_cont">
-                        <img src="images/decor/sea-ribbon-left.png" />
+                        <img src={linkIMG + "decor/sea-ribbon-left.png"} />
                         <div className="lang_col">PYTHON</div>
-                        <img src="images/decor/sea-ribbon-right.png" />
+                        <img src={linkIMG + "decor/sea-ribbon-right.png"} />
                     </div>
                     <div className="c_cont">
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     </div>
                 </div>
@@ -42,19 +43,19 @@ export const Table2 = () => {
             <div className="lang_cont">
             <div className="crab_cont">
                     <div className="sea_ribbon_cont">
-                        <img src="images/decor/sea-ribbon-left.png" />
-                        <div className="lang_col">REACT N</div>
-                        <img src="images/decor/sea-ribbon-right.png" />
+                        <img src={linkIMG + "decor/sea-ribbon-left.png"} />
+                        <div className="lang_col">REACT  </div>
+                        <img src={linkIMG + "decor/sea-ribbon-right.png"} />
                     </div>
                     <div className="c_cont">
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     </div>
                 </div>
@@ -62,19 +63,19 @@ export const Table2 = () => {
             <div className="lang_cont">
             <div className="crab_cont">
                     <div className="sea_ribbon_cont">
-                        <img src="images/decor/sea-ribbon-left.png" />
+                        <img src={linkIMG + "decor/sea-ribbon-left.png"} />
                         <div className="lang_col">FIGMA</div>
-                        <img src="images/decor/sea-ribbon-right.png" />
+                        <img src={linkIMG + "decor/sea-ribbon-right.png"} />
                     </div>
                     <div className="c_cont">
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     <div className="crabi_cont">
-                        <img className="crab_img" src="images/animals/fish.png" alt="" />
+                        <img className="crab_img" src={linkIMG + "animals/fish.png"} alt="" />
                     </div>
                     </div>
                 </div>

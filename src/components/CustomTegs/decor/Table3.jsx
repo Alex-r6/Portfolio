@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Table3 = () => {
     return (
-        <div className="main_cont">
+        <div>
             <div className="top_level">
                 <div className="top_cont_words_empty">
                 </div>

@@ -33,3 +33,17 @@ export const getStylesCustomeElements = (elem, customStyle = {}) => ({
     position: 'absolute',
     ...customStyle,
 })
+
+
+
+
+// Links 
+
+export const linkIMG = process.env.PUBLIC_URL + '/images/'
+
+
+// Device
+export function getIsTouchDevice() {
+    return (('ontouchstart' in window) || (navigator.maxTouchPoints > 0));
+  }
+  

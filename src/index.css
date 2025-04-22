@@ -25,6 +25,9 @@ body {
   overflow-y: hidden;
   overflow-x: scroll;
 }
+#root::-webkit-scrollbar { 
+  height: 0;
+}
 
 .App {
   width: 100%;
@@ -32,3 +35,16 @@ body {
   
   position: relative;
 }
+/* calc(18vh + 50px) */
+
+
+/* 
+.testRemove {
+  position: absolute;
+  z-index: 9999999;
+  bottom: 0;
+  height: 10vh;
+  left: 0;
+  width: 200px;
+  background-color: red;
+} */
