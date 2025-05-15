@@ -28,9 +28,9 @@ export const shema = {
     ],
     customTegs: [
         {
-            bottom: '-43vh',
+            bottom: '-103vh',
             left: '5300px',
-            height: '65vh',
+            height: '125vh',
             width: '3500px',
             background: "#0072BC",
             zIndex: 0
@@ -115,7 +115,7 @@ export const shema = {
             </div>,
             style: {
                 bottom: '8vh',
-                left: '7660px',
+                left: '7650px',
                 zIndex: 9
             }
         },
@@ -127,7 +127,7 @@ export const shema = {
             </div>,
             style: {
                 bottom: '87vh',
-                left: '10150px',
+                left: '10250px',
                 zIndex: 9
             }
         },
@@ -138,8 +138,8 @@ export const shema = {
                 <img src={linkIMG + "social/ribbon-right.png"} />
             </div>,
             style: {
-                bottom: '87vh',
-                left: '11250px',
+                bottom: '88vh',
+                left: '11310px',
                 zIndex: 9
             }
         },
@@ -169,7 +169,7 @@ export const shema = {
             </div>,
             style: {
                 bottom: '50vh',
-                left: '11050px',
+                left: '11000px',
                 zIndex: 0
             }
         },
@@ -196,15 +196,15 @@ export const shema = {
         {
             body: <Robot />,
             style: {
-                bottom: '40vh',
-                left: '11430px',
+                bottom: '50vh',
+                left: '11420px',
                 zIndex: 0
             }
         },
         {
             body: <Octopus />,
             style: {
-                bottom: '30vh',
+                bottom: '40vh',
                 left: '10280px',
                 // zIndex: 0
             }
@@ -212,14 +212,14 @@ export const shema = {
         {
             body: <Table />,
             style: {
-                bottom: '-35vh',
+                bottom: '-50vh',
                 left: '6550px',
             }
         },
         {
             body: <Table2 />,
             style: {
-                bottom: '-35vh',
+                bottom: '-50vh',
                 left: '7350px',
             }
         },
@@ -235,25 +235,18 @@ export const shema = {
 
     ground: [
         {
-            bottom: '-74vh',
+            bottom: '-103vh',
             left: 0,
             isRepeatY : true,
-            height: '93vh', 
+            height: '122vh', 
             width: '5300px',
             img: "bg/ground.png",
         },
         {
-            bottom: '-74vh',
-            left: '5300px',
-            height: '25vh',
-            width: '6700px',
-            img: "bg/ground.png",
-        },
-        {
-            bottom: '-73vh',
+            bottom: '-85vh',
             left: '8300px',
             isRepeatY : true,
-            height: '78vh',
+            height: '95vh',
             width: '3700px',
             img: "bg/panel.png",
             zIndex: 1
@@ -412,7 +405,16 @@ export const shema = {
         {
             height: '13vh',
             width: '3000px',
-            bottom: '-56vh',
+            bottom: '-80vh',
+            isRepeatY : true,
+            left: '5300px',
+            img: "decor/dock-floor.png"
+        },
+        {
+            height: '13vh',
+            width: '3000px',
+            bottom: '-90vh',
+            isRepeatY : true,
             left: '5300px',
             img: "decor/dock-floor.png"
         },
@@ -505,7 +507,7 @@ export const shema = {
         {
             width: '80px',
             height: '270px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '5320px',
             img: "decor/algae-a.png",
             zIndex: 2,
@@ -513,7 +515,7 @@ export const shema = {
         {
             width: '160px',
             height: '250px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '6350px',
             img: "decor/algae-b.png",
             zIndex: 16,
@@ -521,7 +523,7 @@ export const shema = {
         {
             width: '160px',
             height: '250px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '7200px',
             img: "decor/algae-b.png",
             zIndex: 16,
@@ -529,14 +531,14 @@ export const shema = {
         {
             width: '200px',
             height: '140px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '6200px',
             img: "decor/coral-a.png"
         },
         {
             width: '200px',
             height: '140px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '5400px',
             img: "decor/coral-b.png",
             zIndex: 0
@@ -544,7 +546,7 @@ export const shema = {
         {
             width: '200px',
             height: '140px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '8100px',
             img: "decor/coral-b.png",
             zIndex: 0
@@ -552,7 +554,7 @@ export const shema = {
         {
             width: '80px',
             height: '270px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '8020px',
             img: "decor/algae-a.png",
             zIndex: 2,
@@ -622,7 +624,7 @@ export const shema = {
         {
             width: '610px',
             height: '235px',
-            bottom: '57vh',
+            bottom: '60vh',
             left: '4100px',
             img: "decor/sbk.png",
         },
@@ -671,7 +673,7 @@ export const shema = {
         {
             width: '840px',
             height: '200px',
-            bottom: '-43vh',
+            bottom: '-67vh',
             left: '5400px',
             img: "words/title-skills.png"
 

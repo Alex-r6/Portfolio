@@ -1,3 +1,4 @@
+import { useRef } from "react"
 import { getStyles, linkIMG } from "../../helper/helper"
 import { shema } from "../../shema"
 //document.querySelector('#root').scrollTo({top : 500, behavior  :"smooth"})
@@ -6,7 +7,7 @@ export const Ground = () => {
 
   return (
     <>
-      {shema.grass.map((elem, i) => <div key={i} style={getStyles(elem, { backgroundRepeat: 'repeat-x' })}></div>)}
+      {shema.grass.map((elem, i) => <div className={"glassElem-" + i} key={i} style={getStyles(elem, { backgroundRepeat: 'repeat-x' })}></div>)}
       {shema.ground.map((elem, i) => <div key={i} style={{
         position: 'absolute',
         left: elem.left,

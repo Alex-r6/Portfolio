@@ -13,6 +13,23 @@ import { StartMenu } from './components/loading/StartMenu';
 import { DownloadWithFileSaver } from './components/SV/SV';
 import { linkIMG } from './helper/helper';
 
+// !!!
+// let touchStartX = 0;
+
+// window.addEventListener('touchstart', (e) => {
+//   touchStartX = e.touches[0].clientX;
+// }, { passive: false });
+
+// window.addEventListener('touchmove', (e) => {
+//   const touchX = e.touches[0].clientX;
+//   const deltaX = touchX - touchStartX;
+
+//   // если свайп начинается от самого левого края и двигается вправо — отменим его
+//   if (touchStartX < 20 && deltaX > 10) {
+//     e.preventDefault();
+//   }
+// }, { passive: false });
+// !!
 
 
 function App() {
@@ -20,13 +37,9 @@ function App() {
   
   return (
     <div className="App" style={{ width: shema.map.width }}>
-      <div className='testRemove'></div>
       <DownloadWithFileSaver />
       <CustomTegs />
       {run_game == false && <StartMenu setRun_game={setRun_game} />}
-      {/* {run_game == false && <div>
-        <img src={linkIMG + "social/ribbon-left.png"} />
-        </div>} */}
       <Sky />
       <Hero run_game={run_game} setRun_game={setRun_game} />
       <Ground />

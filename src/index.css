@@ -35,16 +35,31 @@ body {
   
   position: relative;
 }
+* {
+ 
+  /* overflow-x: scroll !important; */
+  touch-action: pan-x;
+  overscroll-behavior: contain; 
+}
 /* calc(18vh + 50px) */
 
+body, #root {
+  overflow-y: hidden !important;
+}
 
-/* 
+
 .testRemove {
-  position: absolute;
+  position: fixed;
   z-index: 9999999;
-  bottom: 0;
+  width: 340px;
+  font-size: 8px;
+  overflow-y: auto;
+  /* overflow-x: hidden; */
+  top: 20px;
   height: 10vh;
-  left: 0;
-  width: 200px;
-  background-color: red;
-} */
+  left: 20px;
+  color: black;
+  font-weight: 900;
+  background-color: rgb(195, 190, 190);
+  background-color: bisque;
+}

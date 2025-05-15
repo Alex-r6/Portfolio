@@ -5,14 +5,14 @@ import { shema } from '../../shema'
 export const See_ground = () => {
   return (
     <>
-      {shema.see_ground.map((elem, i) => <div key={i} style={{
+      {shema.see_ground.map((elem, i) => <div id={'see_ground-' + i} key={i} style={{
         position: 'absolute',
         left: elem.left,
         bottom: elem.bottom,
         width: elem.width,
         height: elem.height,
         backgroundImage: `url(${linkIMG + elem.img})`,
-        backgroundRepeat: 'repeat-x',
+        backgroundRepeat: elem.isRepeatY ? 'repeat' : 'repeat-x',
         zIndex: elem.zIndex
       }}></div>)}
       {shema.skills.map((elem, i) => <div key={i} style={{
